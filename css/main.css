@@ -99,6 +99,7 @@ textarea {
 html {
   background-color: #fff;
   height: 100%;
+  font-size: 1em;
 }
 
 body {
@@ -106,6 +107,7 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background-image: linear-gradient(#c4ebc8, #26f0f1,#7d5ba6, #643173, #202a25);
 }
 
 .wrapper {
@@ -117,15 +119,18 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: #202a25;
+  text-align: center;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 0.8em;
+  background-color: #c4ebc8;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  border-style: inset solid;
+  border-color: #c4ebc8;
 }
 
 
